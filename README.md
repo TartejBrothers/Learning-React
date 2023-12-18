@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Installation
+
+- Npx create-react-app appname
+- Create a components folder in the src
+- We can create components and export them, then add them to `App.js`
+- `App.js` is responsible for changing `index.js`, which in turn changes the DOM.
+- We use `npm start` to run the server.
+
 ## Available Scripts
 
 In the project directory, you can run:
