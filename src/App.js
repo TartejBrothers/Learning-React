@@ -3,6 +3,7 @@ import { Hello, Hellonew } from "./components/hello.jsx";
 import Trial from "./components/class.jsx";
 import PropsClass from "./components/propsclass.jsx";
 import PrintFunc from "./components/props.jsx";
+import StateClass from "./components/componentstate.jsx";
 import { Trialnew, TrialFunc } from "./components/createreact.jsx";
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <h2>Children Props</h2>
       </PrintFunc>
       <PropsClass name="Raj" newname="Sairaj" />
+      <StateClass />
     </div>
   );
 }
