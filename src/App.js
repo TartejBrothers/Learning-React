@@ -4,6 +4,7 @@ import Trial from "./components/class.jsx";
 import PropsClass from "./components/propsclass.jsx";
 import PrintFunc from "./components/props.jsx";
 import StateClass from "./components/componentstate.jsx";
+import Counter from "./components/counter.jsx";
 import { Trialnew, TrialFunc } from "./components/createreact.jsx";
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       </PrintFunc>
       <PropsClass name="Raj" newname="Sairaj" />
       <StateClass />
+      <Counter />
     </div>
   );
 }
