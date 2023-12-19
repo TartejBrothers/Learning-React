@@ -8,6 +8,9 @@ import StateClass from "./components/componentstate.jsx";
 import PropsClassDestruct from "./components/destructclass.jsx";
 import Counter from "./components/counter.jsx";
 import { Trialnew, TrialFunc } from "./components/createreact.jsx";
+import FunctionHandler from "./components/eventhandling.jsx";
+import HandlingClass from "./components/eventhandlingclass.jsx";
+
 function App() {
   return (
     <div className="App">
@@ -26,6 +29,8 @@ function App() {
         <h2>Children Props From Destruct</h2>
       </PrintFuncDestruct>
       <PropsClassDestruct name="Raj" newname="Sairaj" />
+      <FunctionHandler />
+      <HandlingClass />
     </div>
   );
 }
