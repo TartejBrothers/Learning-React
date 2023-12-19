@@ -10,6 +10,7 @@ import Counter from "./components/counter.jsx";
 import { Trialnew, TrialFunc } from "./components/createreact.jsx";
 import FunctionHandler from "./components/eventhandling.jsx";
 import HandlingClass from "./components/eventhandlingclass.jsx";
+import EventBind from "./components/bindingeventhandler.jsx";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <PropsClassDestruct name="Raj" newname="Sairaj" />
       <FunctionHandler />
       <HandlingClass />
+      <EventBind />
     </div>
   );
 }
