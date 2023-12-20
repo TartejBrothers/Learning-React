@@ -15,6 +15,7 @@ import PropClass from "./components/propclassformethod.jsx";
 import Conditions from "./components/conditionalrender.jsx";
 import ArraysNew from "./components/arrays.jsx";
 import ObjectArray from "./components/objectarrays.jsx";
+import ListKey from "./components/listkey.jsx";
 function App() {
   return (
     <div className="App">
@@ -40,6 +41,7 @@ function App() {
       <Conditions />
       <ArraysNew />
       <ObjectArray />
+      <ListKey />
     </div>
   );
 }
