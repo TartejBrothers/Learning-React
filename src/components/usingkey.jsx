@@ -1,6 +1,6 @@
 import React from "react";
-
-function ObjectArray() {
+import ListFunc from "./listkeyfunc";
+function UsingKey() {
   const newobj = [
     {
       id: 1,
@@ -11,11 +11,9 @@ function ObjectArray() {
       name: "singh",
     },
   ];
-  const namelist = newobj.map((names, index) => (
-    <h2 key={index}>
-      Id: {names.id} and Name: {names.name}
-    </h2>
+  const namelist = newobj.map((names) => (
+    <ListFunc key={names.id} names={names} />
   ));
   return <div>{namelist}</div>;
 }
-export default ObjectArray;
+export default UsingKey;
