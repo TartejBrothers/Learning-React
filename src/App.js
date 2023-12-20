@@ -12,6 +12,7 @@ import FunctionHandler from "./components/eventhandling.jsx";
 import HandlingClass from "./components/eventhandlingclass.jsx";
 import EventBind from "./components/bindingeventhandler.jsx";
 import PropClass from "./components/propclassformethod.jsx";
+import Conditions from "./components/conditionalrender.jsx";
 function App() {
   return (
     <div className="App">
@@ -34,6 +35,7 @@ function App() {
       <HandlingClass />
       <EventBind />
       <PropClass />
+      <Conditions />
     </div>
   );
 }
