@@ -14,6 +14,7 @@ import EventBind from "./components/bindingeventhandler.jsx";
 import PropClass from "./components/propclassformethod.jsx";
 import Conditions from "./components/conditionalrender.jsx";
 import ArraysNew from "./components/arrays.jsx";
+import ObjectArray from "./components/objectarrays.jsx";
 function App() {
   return (
     <div className="App">
@@ -38,6 +39,7 @@ function App() {
       <PropClass />
       <Conditions />
       <ArraysNew />
+      <ObjectArray />
     </div>
   );
 }
