@@ -11,7 +11,9 @@ function ListKey() {
       name: "singh",
     },
   ];
-  const namelist = newobj.map((names) => <ListFunc names={names} />);
+  const namelist = newobj.map((names) => (
+    <ListFunc key={names.id} names={names} />
+  ));
   return <div>{namelist}</div>;
 }
 export default ListKey;
