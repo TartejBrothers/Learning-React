@@ -18,6 +18,7 @@ import ObjectArray from "./components/objectarrays.jsx";
 import ListKey from "./components/listkey.jsx";
 import UsingKey from "./components/usingkey.jsx";
 import NewList from "./components/styling.jsx";
+import ModuleCheck from "./components/usingmodulecss.jsx";
 function App() {
   return (
     <div className="App">
@@ -46,6 +47,7 @@ function App() {
       <ListKey />
       <UsingKey />
       <NewList class={true} />
+      <ModuleCheck />
     </div>
   );
 }
