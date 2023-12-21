@@ -33,6 +33,7 @@ class TrialForm extends Component {
     event.preventDefault();
   };
   render() {
+    // const { username, comments, topic } = this.state; we can use this to remove this.state from everywhere we called for value
     return (
       <div>
         <form>

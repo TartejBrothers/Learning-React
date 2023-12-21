@@ -20,6 +20,7 @@ import UsingKey from "./components/usingkey.jsx";
 import NewList from "./components/styling.jsx";
 import ModuleCheck from "./components/usingmodulecss.jsx";
 import TrialForm from "./components/forms.jsx";
+import Fragments from "./components/fragments.jsx";
 function App() {
   return (
     <div className="App">
@@ -50,6 +51,7 @@ function App() {
       <NewList class={true} />
       <ModuleCheck />
       <TrialForm />
+      <Fragments />
     </div>
   );
 }
