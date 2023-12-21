@@ -2,10 +2,15 @@ import React from "react";
 import "./styles/style.css";
 
 function NewList(props) {
+  const marginsizing = {
+    margin: "40px",
+  };
   let classnamefunc = props.class ? "container" : "";
   return (
-    <div className={classnamefunc}>
-      <h1>Hello World</h1>
+    <div>
+      <h3 className={`${classnamefunc} fontsize `} style={marginsizing}>
+        Hello World
+      </h3>
     </div>
   );
 }
