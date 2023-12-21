@@ -19,6 +19,7 @@ import ListKey from "./components/listkey.jsx";
 import UsingKey from "./components/usingkey.jsx";
 import NewList from "./components/styling.jsx";
 import ModuleCheck from "./components/usingmodulecss.jsx";
+import TrialForm from "./components/forms.jsx";
 function App() {
   return (
     <div className="App">
@@ -48,6 +49,7 @@ function App() {
       <UsingKey />
       <NewList class={true} />
       <ModuleCheck />
+      <TrialForm />
     </div>
   );
 }
