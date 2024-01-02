@@ -21,6 +21,7 @@ import NewList from "./components/styling.jsx";
 import ModuleCheck from "./components/usingmodulecss.jsx";
 import TrialForm from "./components/forms.jsx";
 import Fragments from "./components/fragments.jsx";
+import ParentPure from "./components/parentpurecomponent.jsx";
 function App() {
   return (
     <div className="App">
@@ -52,6 +53,7 @@ function App() {
       <ModuleCheck />
       <TrialForm />
       <Fragments />
+      <ParentPure />
     </div>
   );
 }
