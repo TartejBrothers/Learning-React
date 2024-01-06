@@ -12,7 +12,7 @@ class ParentPure extends Component {
     setInterval(
       () =>
         this.setState({
-          name: "Taranjeet",
+          name: "Taranjeet New",
         }),
       2000
     );
@@ -23,7 +23,7 @@ class ParentPure extends Component {
         Parent Div
         <PureComp name={this.state.name} />
         Memo Component
-        <MemoComp name={this.state.name} />:
+        <MemoComp name={this.state.name} />
       </div>
     );
   }
